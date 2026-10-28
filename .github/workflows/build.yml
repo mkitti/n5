@@ -31,7 +31,7 @@ jobs:
           java-version: '8'
           distribution: 'zulu'
           cache: 'maven'
-      # TEMPORARY: janelia-jhdf5 22.03.01-SNAPSHOT is not published anywhere, so build and
+      # TEMPORARY: janelia-jhdf5 26.10.0-SNAPSHOT is not published anywhere, so build and
       # install it into ~/.m2 first. Remove once janelia-jhdf5 is released.
       - name: Check out janelia-jhdf5
         uses: actions/checkout@v4

@@ -161,7 +161,7 @@
 		<n5-zstandard.version>2.0.0</n5-zstandard.version>
 
 		<!-- TEMPORARY: remove the SNAPSHOT version and the two overrides below (use the managed or released versions) once janelia-jhdf5 is released. -->
-		<janelia-jhdf5.version>22.03.01-SNAPSHOT</janelia-jhdf5.version>
+		<janelia-jhdf5.version>26.10.0-SNAPSHOT</janelia-jhdf5.version>
 		<!-- pom-scijava manages older bytedeco versions; match what janelia-jhdf5 is built against. -->
 		<javacpp.version>1.5.15-SNAPSHOT</javacpp.version>
 		<hdf5.version>2.2.0-${javacpp.version}</hdf5.version>
@@ -230,7 +230,7 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.scijava</groupId>
+			<groupId>org.janelia</groupId>
 			<artifactId>janelia-jhdf5</artifactId>
 			<version>${janelia-jhdf5.version}</version>
 			<scope>test</scope>
